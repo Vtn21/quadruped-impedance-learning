@@ -1,0 +1,27 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.0413257772450288 0.9966061795073847 0.07119201572359657 1.8029806196147513
+  position 7.151211443405437 1.8920427459795146 19.858302203752068
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 5 50
+  tileSize 1 1
+}
+DEF SUPERVISOR Robot {
+  children [
+    Receiver {
+    }
+    Emitter {
+    }
+  ]
+  name "supervisor"
+  controller "<extern>"
+  supervisor TRUE
+}
